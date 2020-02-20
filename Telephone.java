@@ -4,6 +4,7 @@
  * numbers.
  */
  
+import org.junit.*;
 public class Telephone
 {
    // These constant fields hold the valid lengths of
@@ -19,7 +20,7 @@ public class Telephone
     * If the argument is properly formatted, the method
     * returns true, otherwise false.
     */
-
+   
    public static boolean isFormatted(String str)
    {
       boolean valid;  // Flag to indicate valid format
